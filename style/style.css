@@ -1,9 +1,67 @@
-.heading{
+/*font-family: 'Lexend', sans-serif;;*/
+.body{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #E5E5E5;
+}
+.avatar{
+    width: 224px;
+    height: 224px;
+}
+.line {
+    width: 64px;
+    height: 2px;
+    background-color: #1c33b4;
+    margin: 0 auto 25px;
+    border: none;
+  }
+  .heading{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+     
+  }
+  .heading-info{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; 
+    border: 2px solid;
+      border-color: #1c33b4;
+  }
+  .contacts{
+    display: flex;
     flex-direction: column;
+    border: 2px solid;
+    border-color: #1c33b4;
 }
-.contacts{
-    display:flex;
-}
+  .about-me{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+  }
+  .main-info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .contacts-list{
+    list-style-type: none;  
+  }
+  .footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(185, 185, 199);
+  }
+  .logo{
+      width: 5%;
+      height: 5%;
+  }
+  .subtitle{
+   color: rgb(22, 120, 211);
+  }

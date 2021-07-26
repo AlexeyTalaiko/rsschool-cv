@@ -5,52 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
     <title>cv</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="heading">
+        <div class="heading-info">
+          <h1 class="title">Rsschool-CV</h1>
+          <hr class="line" />
+          <h2 >Alexey Talaiko</h2>
+        </div>
         <div class="avatar">
           <img src="/images/user_picture.png" alt="User's Photo" />
         </div>
-        <div>
-          <h1>Rsschool-CV</h1>
-          <h2>Alexey Talaiko</h2>
-          <p>
-            With experience in management and configuration of web applications
-            using technologies like HTML, CSS, and JavaScript (with different
-            frameworks/libraries/preprocessors), CMS like WordPress, or Ghost;
-            to improve the performance and functionality for the user experience
-            side.
-          </p>
-          <p>
-            HTML - CSS - JavaScript - React.js - Pug - SASS - Tailwind CSS
-            Bootstrap - Git - Github - Linux server - Heroku - Netlify - Gatsby
-            GraphQL - Wordpress - Figma
-          </p>
+        <div class="contacts">
+  
+    <h3 class="subtitle">Contacts</h3>
+          <ul class="contacts-list">
+            <img src="/images/icon_phone.png" alt="">
+            <li>Tel:+375293607948</li>
+            <img src="/images/icons_envelope.png" alt="">
+            <li>E-mail:atalajko@mail.ru</li>
+            
+            <img src="/images/icon_github.png" alt="">
+            <li>GitHub: Alexey Talaiko (https://github.com/AlexeyTalaiko)</li><li>Discord:Alexey (@AlexeyTalaiko) (rs-school server)</li>
+            <li>VK:Алексей Талайко (https://vk.com/idtyhbjhuhjhhgggfcf)</li>
+          </ul>
         </div>
       </div>
     </header>
     <main class="main">
-      <div class="contacts">
-        <h3>Contacts</h3>
-        <ul>
-          <li>Tel:+375293607948</li>
-          <li>E-mail:atalajko@mail.ru</li>
-          <li>Discord:Alexey (@AlexeyTalaiko) (rs-school server)</li>
-          <li>VK:Алексей Талайко (https://vk.com/idtyhbjhuhjhhgggfcf)</li>
-          <li>GitHub: Alexey Talaiko (https://github.com/AlexeyTalaiko)</li>
-        </ul>
-      </div>
       <div class="about-me">
-        <h3>About me</h3>
+        <h3 class="subtitle">About me</h3>
         <p>
           Alexey Talaiko, I'm 22 years old. I was born in small town - Myadel,
           but now I live in Minsk. I have a girlfriend and a lovely dachshund.
           My aim is to become a Front-End developer.
         </p>
+      </div>
+      <div class="main-info">
         <div class="skills">
-          <h3>My key skills</h3>
+          <h3 class="subtitle">My key skills</h3>
           <ul>
             <li>Hardwork</li>
             <li>Honesty</li>
@@ -59,13 +60,27 @@
           </ul>
         </div>
         <div class="language">
-          <h3>Language</h3>
+          <h3 class="subtitle">Language</h3>
           <ul>
             <li>Russian - native</li>
             <li>English - B1</li>
           </ul>
         </div>
+        <div class="hobby">
+          <h3 class="subtitle">My Hobbies</h3>
+          <ul>
+            <li>Watching Movies</li>
+            <li>Programming</li>
+            <li>Reading Books</li>
+          </ul>
+        </div>
       </div>
     </main>
+    <footer class="footer">
+      <p>27/07/2021</p>
+      <a href="https://github.com/AlexeyTalaiko">GitHub</a>
+      <a href="https://rs.school/js/">Rs-school</a>
+      <img class="logo" src="images/rs_school_js.svg" alt="rsschool-logo"/>
+    </footer>
   </body>
 </html>
